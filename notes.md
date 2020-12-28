@@ -1,3 +1,11 @@
+### Caveats
+ * Shader Graph requires a Scriptable Render Pipeline (URP or HDRP)
+     * SRP used to be LWRP
+
+### Rendering
+ * URP breakdown: https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@10.2/manual/universalrp-builtin-feature-comparison.html
+ * URP lighting: https://learn.unity.com/tutorial/editing-lighting-in-the-lightweight-render-pipeline
+
 ### General
 
 * Enable preview packages: In project settings
