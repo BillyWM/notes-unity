@@ -1,3 +1,5 @@
+* Cinemachine third-person camera: https://www.youtube.com/watch?v=537B1kJp9YQ
+
 ### General
 
 * Enable preview packages: In project settings
