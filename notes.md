@@ -1,7 +1,9 @@
 
 ### Update / patching / diffing
 * https://forum.unity.com/threads/separate-data-unity3d-for-update.588940/
-    * AssetBundles and AddressableAssets 
+    * AssetBundles and AddressableAssets
+    * [Patching with AssetBundles](https://docs.unity3d.com/Manual/AssetBundles-Patching.html)
+    > Unity builds AssetBundles with data ordered in a deterministic manner. This allows applications with custom downloaders to implement differential patching.
 
 ### Camera
 * Cinemachine third-person camera: https://www.youtube.com/watch?v=537B1kJp9YQ
