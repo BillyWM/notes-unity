@@ -1,9 +1,16 @@
+
+### Update / patching / diffing
+* https://forum.unity.com/threads/separate-data-unity3d-for-update.588940/
+    * AssetBundles and AddressableAssets 
+
+### Camera
 * Cinemachine third-person camera: https://www.youtube.com/watch?v=537B1kJp9YQ
 
 ### General
 
 * Enable preview packages: In project settings
 * Navigation hotkeys: https://docs.unity3d.com/Manual/SceneViewNavigation.html
+
 
 ### Caveats
  * Shader Graph requires a Scriptable Render Pipeline (URP or HDRP)
