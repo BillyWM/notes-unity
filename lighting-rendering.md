@@ -18,19 +18,19 @@
   * 23:00 `Final gather` in `lightmapping settings`. More accurate shadow in tiny details. Increased bake time.
   * 27:00 Wall artifacts from change in lightmap resolution. Caused by `lightmap compression`; compression artifacts
   
-  [7 Ways to Optimize your Unity Project with URP](https://www.youtube.com/watch?v=NFBr21V0zvU)
-    * 4:00 Generally, put probes *where there's a shift in lighting*; near *shadowed areas* or where *colors change frequently*
-    * 5:30 Bake reflections: Lighting panel -> Generate lighting dropdown -> bake reflection probes
-    * 5:45 Turn down cubemap resolution if reflective objects won't be viewed close up (Optimizes memory)
-    * 6:15 Occlusion culling; camera defaults to drawing everything in view frustum even if hidden behind walls
-      * Mark geometry as `occluder static` or `occludee static`
-      * 7:00 Window -> rendering -> `occlusion culling` to bake
-    * 7:30 Pipeline settings: Edit -> Project settings -> Quality -> select pipeline asset
-    * 8:15 reduce `shadow resolution` and `shadow distance` in these settings for performance
-      * 8:30 Possibly disable `depth texture` and `opaque texture` and other features not used
-    * Enable `SRP batcher`. Batches **meshes that use compatible shader**
-    * 9:00 `Window` -> `analysis` -> `frame debugger`. Breakdown of draw calls. Also breakdown of renderer features.
-    * 10:30 `Window` -> `Analysis` -> `Profiler`
+[7 Ways to Optimize your Unity Project with URP](https://www.youtube.com/watch?v=NFBr21V0zvU)
+  * 4:00 Generally, put probes *where there's a shift in lighting*; near *shadowed areas* or where *colors change frequently*
+  * 5:30 Bake reflections: Lighting panel -> Generate lighting dropdown -> bake reflection probes
+  * 5:45 Turn down cubemap resolution if reflective objects won't be viewed close up (Optimizes memory)
+  * 6:15 Occlusion culling; camera defaults to drawing everything in view frustum even if hidden behind walls
+    * Mark geometry as `occluder static` or `occludee static`
+    * 7:00 Window -> rendering -> `occlusion culling` to bake
+  * 7:30 Pipeline settings: Edit -> Project settings -> Quality -> select pipeline asset
+  * 8:15 reduce `shadow resolution` and `shadow distance` in these settings for performance
+    * 8:30 Possibly disable `depth texture` and `opaque texture` and other features not used
+  * Enable `SRP batcher`. Batches **meshes that use compatible shader**
+  * 9:00 `Window` -> `analysis` -> `frame debugger`. Breakdown of draw calls. Also breakdown of renderer features.
+  * 10:30 `Window` -> `Analysis` -> `Profiler`
     
   [Harnessing Light with URP and the GPU Lightmapper | Unite Now 2020](https://www.youtube.com/watch?v=hMnetI4-dNY)
   
