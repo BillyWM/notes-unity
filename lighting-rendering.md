@@ -66,6 +66,7 @@
     * 49:15 Contributes to GI (casts shadows) but not light by lightmap GI
   * 50:00 Lighting settings -> Scene -> Light probe visualization
   * 50:45 `Contributors/Receivers` visualization mode (Scene view main dropdown). Debugging GI.
+  * 55:00 `Importance` value on reflection probe so it takes precedence
     
   
   
