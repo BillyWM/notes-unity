@@ -1,3 +1,8 @@
+[Fast worldbuilding with Unity's updated Terrain System & ProBuilder - Unite LA](https://www.youtube.com/watch?v=XhYHuju5n6M) (Nov 2018)
+  * 11:00 Brush settings -> create neighbor terrains. Sculpt across multiple terrains.
+  * 13:45 Tree movement not compatible with URP+HDRP
+  * 15:15 `Draw instanced` option. Heightmap, splatmap etc moved to GPU textures and sampled there.
+
 [Terrain tips & tricks | Unity 2019 -Tutorial](https://www.youtube.com/watch?v=bq_PIBWw5oI)
   * 1:15 Move terrain up initially to allow sculpting downards. `Paint height` section in terrain tools then `flatten` whole terrain prior to sculpting
   * 7:00 Mountain sculpting.
