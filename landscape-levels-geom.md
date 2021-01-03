@@ -1,3 +1,13 @@
+[Terrain tips & tricks | Unity 2019 -Tutorial](https://www.youtube.com/watch?v=bq_PIBWw5oI)
+  * 1:15 Move terrain up initially to allow sculpting downards. `Paint height` section in terrain tools then `flatten` whole terrain prior to sculpting
+  * 7:00 Mountain sculpting.
+    * Constantly move mouse so regions don't get too steep
+    * Circle terrain initially. Reduce brush size as it gets steeper. Avoid pyramid shape.
+    * 7:45 Define branches.
+    * Then sub-branches
+  * 8:15 Fog from `dust storm` particles standard asset. White tint, increased size, decreased speed, rotation-over-life-time, increased start lifetime, decreased emission-over-time.
+
+
 ## Trees, Wind zones
 [Custom trees and Unity are not friends (2012)](https://polycount.com/discussion/99121/custom-trees-and-unity-are-not-friends)
 
