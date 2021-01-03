@@ -32,7 +32,7 @@
   * 9:00 `Window` -> `analysis` -> `frame debugger`. Breakdown of draw calls. Also breakdown of renderer features.
   * 10:30 `Window` -> `Analysis` -> `Profiler`
     
-  [Harnessing Light with URP and the GPU Lightmapper | Unite Now 2020](https://www.youtube.com/watch?v=hMnetI4-dNY)
+  [Harnessing Light with URP and the GPU Lightmapper | Unite Now 2020](https://www.youtube.com/watch?v=hMnetI4-dNY) (Jul 2020)
   
   * 6:00 (With 2048 shadow resolution of main light) Implemented by casting 2048x2048 texture on scene then checking for shadows within
   * 7:15 `Additional lights` shadow resolution: possibly lower depending on scene. In sample scene, only cast from spotlight attached to gun
@@ -48,6 +48,26 @@
   * 16:45 `Lightmap resultion` and `texels per unit`
   * 17:00 Baked lightmap dropdown in scene view to check / debug
   * 17:45 `Scale in lightmap` on per-object basis. Reduce resolution (< 1.0) for distant objects
+  * 18:45 Quality of bake based on `direct samples`, `indirect samples`, `environment samples`
+    * `evironment lights`: Ray shot ***by texels*** and trying to find sky. **Color is sampled** in each bounce
+    * 22:00 `bounces` setting related to above. Plus `russian roulette` setting to help baking times (discarding some ray tests)
+  * 22:45 Noisy bakes. `Lightmapping settings` -> `Filtering` -> `Advanced` to hide noise
+    * 24:30 `Gaussian` filter "doesn't differentiate between any pixel and geometries". Blurs across pixels and across geometries
+    * 25:00 `A-Trous`. Slightly better with touching/intersecting geometry. Tries not to blend texels from different geometries
+    * 26:00 `Denoisers`. AI based (???). Compatibility based on graphics card
+    * 26:45 Filtering is per `UV chart` (UV 'island')
+  * 36:00 Settings affecting realtime performance vs bake time and quality
+  * 38:00 (Mixed lighting: `baked indirect` vs `subtractive`)
+    * Enable `mixed lighting` on `pipeline asset` then select mode in lighting panel
+    * ***Set individual lights to mixed***
+  * 45:00 Objects average baked light across 4 closest `light probes`
+  * 46:30 "organize them in pyramids" (light probes) near *points of interest*
+  * 48:00 Excluding small detailed object (plants) from "recieve global illumination" from lightmap. Light probes instead.
+    * 49:15 Contributes to GI (casts shadows) but not light by lightmap GI
+  * 50:00 Lighting settings -> Scene -> Light probe visualization
+  * 50:45 `Contributors/Receivers` visualization mode (Scene view main dropdown). Debugging GI.
+    
+  
   
   
   
