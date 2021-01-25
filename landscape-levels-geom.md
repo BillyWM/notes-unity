@@ -1,3 +1,7 @@
+https://samdriver.xyz/article/decal-render-intro
+https://docs.unity3d.com/Manual/class-TerrainLayer.html#Performance
+
+
 [Fast worldbuilding with Unity's updated Terrain System & ProBuilder - Unite LA](https://www.youtube.com/watch?v=XhYHuju5n6M) (Nov 2018)
   * 11:00 Brush settings -> create neighbor terrains. Sculpt across multiple terrains.
   * 13:45 Tree movement not compatible with URP+HDRP
