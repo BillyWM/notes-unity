@@ -1,3 +1,7 @@
+### Compiling from Command Line
+
+https://docs.unity3d.com/Manual/CommandLineArguments.html
+
 
 ### Update / patching / diffing
 * https://forum.unity.com/threads/separate-data-unity3d-for-update.588940/
