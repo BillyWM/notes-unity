@@ -1,6 +1,7 @@
 ### Compiling from Command Line
 
-https://docs.unity3d.com/Manual/CommandLineArguments.html
+* https://stackoverflow.com/questions/45081576/how-can-i-compile-a-unity3d-game-project-from-command-line-into-webgl
+* https://docs.unity3d.com/Manual/CommandLineArguments.html
 
 
 ### Update / patching / diffing
