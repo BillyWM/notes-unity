@@ -1,3 +1,11 @@
+### Scripting build process
+
+* Create menu options for builds:
+  * https://docs.unity3d.com/ScriptReference/BuildPipeline.BuildPlayer.html
+* For assets: "BuildAssetBundle has been made obsolete". Now uses `BuildPipeline.BuildAssetBundles` (plural) and new Asset loading mechanism in 5.0+
+
+
+
 ### Compiling from Command Line
 
 * https://stackoverflow.com/questions/45081576/how-can-i-compile-a-unity3d-game-project-from-command-line-into-webgl
