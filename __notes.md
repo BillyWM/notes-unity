@@ -1,3 +1,5 @@
+* [Fix lack of Intellisense in Visual Studio](https://stackoverflow.com/questions/42597501/unity-scripts-edited-in-visual-studio-dont-provide-autocomplete)
+
 ### Scripting build process
 
 * Create menu options for builds:
